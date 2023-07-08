@@ -17,6 +17,19 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+.citation p{
+    font-size: 22px;
+}
+.imgmodification{
+    width: 43%;
+    margin-left: 283px;
+}
+.imgmodification p{
+    font-size: 22px;
+}
+.modification3{
+    text-align: center;
+}
 .modification1{
     display: flex;
     justify-content: center;
@@ -782,7 +795,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #a85c38;
 }
 
 .tc-white {
@@ -790,12 +803,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #a85c38;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #a85c38!important;
     color: #FFFFFF!important;
 }
 
@@ -808,11 +821,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #a85c38!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #a85c38!important;
 }
 
 .icon-dark-slate-blue {
@@ -848,6 +861,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -857,18 +871,21 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
+    
 }
 
 @media (max-width: 991px) {
@@ -883,10 +900,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -895,8 +909,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -904,6 +916,9 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+    }
+    .imgmodification{
+        margin-left: 140px;
     }
     h1,
     h2,
