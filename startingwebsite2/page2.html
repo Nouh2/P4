@@ -35,7 +35,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.webp" alt="atlanta web design logo" height="40" tabindex="0" role="navigation" aria-label="open"/></a>
+				<div tabindex="0" aria-label="navigation"><a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.webp" alt="atlanta web design logo" height="40"/></a></div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -103,10 +103,12 @@
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
+					</div>
+					<div tabindex="0" aria-label="button">
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						<div tabindex="0" role="button" aria-label="open">Envoyer</div>
+						Envoyer
 					</button>
+					</div>
 				</form>
 			</div>
 			<div class="col-sm-6">
